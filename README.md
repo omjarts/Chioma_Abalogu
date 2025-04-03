@@ -2,12 +2,12 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=2.0">
     <title>Chioma Abalogu - Artist</title>
     <style>
         body {
             background-color: #6B5B4D; /* Olive mud */
-            color: #FFF8E1; /* Warm cream */
+            color: #FFF8E1; /* Warm pink */
             font-family: 'Georgia', serif;
             text-align: center;
             margin: 0;
