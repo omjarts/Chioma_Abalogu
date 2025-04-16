@@ -1,4 +1,4 @@
-
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -14,11 +14,13 @@
       font-family: Arial, sans-serif;
       margin: 0;
       padding: 0;
+      background-color: #dbe5c3; /* Light olive background */
+      color: #1e1e1e;
     }
 
     header {
-      background-color: #119;
-      color: #ppp;
+      background-color: #d6336c; /* Rich pink header */
+      color: #fff;
       padding: 1rem;
       text-align: center;
     }
@@ -49,6 +51,7 @@
       height: auto;
       border-radius: 8px;
       transition: transform 0.2s ease;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     }
 
     .gallery-grid img:hover {
@@ -58,6 +61,7 @@
     .caption {
       margin-top: 8px;
       font-size: 0.9rem;
+      color: #d6336c; /* Rich pink caption */
     }
 
     @media (max-width: 768px) {
@@ -98,10 +102,9 @@
     <section id="gallery">
       <h2>Gallery</h2>
       <div class="gallery-grid">
-        <!-- Example Images -->
-        <a href="images/IMG_9394.JPG" data-lightbox="art-gallery" data-title="Ogechi (God's time is the best)">
-          <img src="images/IMG_9394.JPG" alt="Ogechi (God's time is the best)" />
-          <p class="caption">Ogechi (God's time is the best) - Oil on Canvas, 2025</p>
+        <a href="images/art1.jpg" data-lightbox="art-gallery" data-title="Title of Art 1">
+          <img src="images/art1.jpg" alt="Art 1" />
+          <p class="caption">Title of Art 1</p>
         </a>
 
         <a href="images/art2.jpg" data-lightbox="art-gallery" data-title="Title of Art 2">
@@ -114,7 +117,7 @@
     </section>
   </main>
 
-  <!-- Lightbox7 JS -->
+  <!-- Lightbox2 JS -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.5/js/lightbox.min.js"></script>
 </body>
 </html>
